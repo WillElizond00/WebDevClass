@@ -161,6 +161,8 @@ img {
 	border: 0;
 	-ms-interpolation-mode: bicubic;
 	vertical-align: middle;
+	/* This is a test below*/
+	width:100%;
 }
 figure {
 	margin: 0;
