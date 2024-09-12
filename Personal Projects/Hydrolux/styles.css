@@ -1,15 +1,20 @@
-header {
-    background-color: #333;
-    padding: 10px 0;
-
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width:100%;
 }
+
+/* header */
 header {
     background-color: #49b8e4;
-    padding: 15px;
+    padding: 15px ;
+
     /* rounded edges */
     border-radius: 10px;
-
+    
 }
+
 
 header nav h1 a {
     text-decoration: none;
@@ -44,7 +49,7 @@ nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
 }
-
+/* Block 1*/
 #washJobPic {
     width: 100%;
     display: block;
@@ -52,7 +57,7 @@ nav ul li a:hover {
 
 .content-section {
     display: flex;
-    height: 100vh;
+    height: 50vh;
 }
 
 .image-container{
@@ -98,16 +103,31 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Google Maps */
+/* Google Maps / Block 3*/
 
+#map-headline {
 
+    background-color: #49b8e4;
+    color: white;
+    text-align: center;
+    width : 100%;
+    /*rounded edges */
+    border-radius: 10px;
+
+}
 
 .gps-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
-    background-color: white;
+    padding: 0;
+    background-image: url(photos/chatgpt2.PNG);
+   
     
+}
+
+#map-container {
+    padding: 10px;
+
 }
