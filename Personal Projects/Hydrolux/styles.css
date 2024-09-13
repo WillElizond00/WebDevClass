@@ -25,6 +25,7 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    /*wtf */
 }
 
 nav ul {
@@ -49,6 +50,9 @@ nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
 }
+
+
+
 /* Block 1*/
 #washJobPic {
     width: 100%;
@@ -105,7 +109,56 @@ nav ul li a:hover {
 
 /* Block 2*/
 
+#table1 {
+    width: 100%; /* Make the table full-width*/
+    table-layout: fixed; /* Ensure equal column widths */
+    border-collapse: separate;
+    border-spacing: 10px; /* Space between table cells */
+    width: 100%; /* Make the table full-width, adjust as needed */
+  }
+  
+  #table1 th, #table1 td {
+    border: 2px solid #ccc; /* Border around each cell */
+    border-radius: 10px; /* Rounded edges */
+    padding: 20px; /* Padding inside the cells */
+    text-align: center; /* Align text to the left */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  #table1 th {
+    background-color: #49b8e4; /* Header background color */
+    color: white; /* Text color for the headers */
+    font-weight: bold; /* Make the headers bold */
+  }
+  
+  #table1 td p {
+    margin: 0; /* Remove extra margin from paragraphs */
+  }
+  
+  #block2 {
+    padding: 20px; /* Add padding around the entire section */
+    background-color: #f0f0f0; /* Light background for the section */
+  }
+  
+  #block2 h1 {
+    text-align: center; /* Center the heading */
+  }
 
+.center-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #49b8e4;
+    color:white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
 
 /* Google Maps / Block 3*/
 
