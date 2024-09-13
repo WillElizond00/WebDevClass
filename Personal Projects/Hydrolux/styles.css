@@ -103,6 +103,10 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+/* Block 2*/
+
+
+
 /* Google Maps / Block 3*/
 
 #map-headline {
@@ -122,7 +126,9 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding: 0;
-    background-image: url(photos/chatgpt2.PNG);
+    background-image: url(photos/lawn.PNG);
+    background-size: cover;
+    
    
     
 }
