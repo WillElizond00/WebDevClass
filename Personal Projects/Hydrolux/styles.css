@@ -122,7 +122,7 @@ nav ul li a:hover {
     border-radius: 10px; /* Rounded edges */
     padding: 20px; /* Padding inside the cells */
     text-align: center; /* Align text to the left */
-    background-color: #f9f9f9; /* Light background color */
+   
   }
   
   #table1 th {
@@ -131,6 +131,10 @@ nav ul li a:hover {
     font-weight: bold; /* Make the headers bold */
   }
   
+#table1 td {
+    background-color: white; /* Light background color */
+}
+
   #table1 td p {
     margin: 0; /* Remove extra margin from paragraphs */
   }
