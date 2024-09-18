@@ -107,7 +107,7 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Block 2*/
+/*  Block 2*/
 
 #table1 {
     width: 100%; /* Make the table full-width*/
@@ -195,12 +195,12 @@ nav ul li a:hover {
 
 }
 
-/* Footer */
+/*Footer */
 
 
 .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
+    background-color: white;
     color:#4b4c4d;
   }
   
@@ -212,7 +212,17 @@ nav ul li a:hover {
     line-height:1.6;
     margin-bottom:0;
   }
-  
+
+  .footer-basic ul li:hover {
+    background-color: #49b8e4;
+    border-radius: 10px;
+}
+
+.footer-basic ul li {
+    display: inline-block;
+
+}
+
   .footer-basic li {
     padding:0 10px;
   }
@@ -257,3 +267,353 @@ nav ul li a:hover {
     color:#aaa;
     margin-bottom:0;
   }
+
+
+/* Services Page */
+
+/* ===== Services Page Styles ===== */
+
+/* Reset and Basic Styles for Services Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* ===== Services Intro Section ===== */
+#services-intro {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#services-intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#services-intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ===== Services Sections ===== */
+.services-section {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.services-section h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services-section .service-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    display: block;
+    border-radius: 10px;
+}
+
+.services-section p,
+.services-section ul {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.services-section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.services-section ul li {
+    margin-bottom: 10px;
+}
+
+.services-section em {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Specific Sections Backgrounds (Optional) */
+#residential-services {
+    background-color: #f9f9f9;
+}
+
+#commercial-services {
+    background-color: #eef7fb;
+}
+
+#specialized-services {
+    background-color: #f9f9f9;
+}
+
+/* ===== Why Hydrolux Section ===== */
+#why-hydrolux {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+#why-hydrolux h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#why-hydrolux p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.advantage {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.advantage h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.advantage p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* ===== Testimonials Section ===== */
+#testimonials {
+    background-color: #eef7fb;
+    padding: 60px 20px;
+}
+
+#testimonials h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 5px solid #49b8e4;
+    border-radius: 5px;
+}
+
+.testimonial p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* ===== Call to Action Section ===== */
+#call-to-action {
+    background-color: #49b8e4;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#call-to-action h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #49b8e4;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* ===== FAQ Section ===== */
+#faq {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+#faq h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.faq-item {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-item h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* ===== Media Queries for Responsiveness ===== */
+@media (max-width: 768px) {
+    
+    .advantages {
+        flex-direction: column;
+    }
+
+    .advantage {
+        margin: 10px auto;
+    }
+
+    .services-section {
+        padding: 40px 20px;
+    }
+
+    #call-to-action h3,
+    #call-to-action p {
+        font-size: 1.5em;
+    }
+
+
+@media (max-width: 480px) {
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+
+    /* Reduce padding and font size of nav links */
+    nav ul li a {
+        font-size: 14px;
+        padding: 8px 10px; /* Reduce padding to fit links */
+    }
+
+    /* Reduce left margin between nav items */
+    nav ul li {
+        margin-left: 5px;
+    }
+
+    /* Adjust the site title font size */
+    header nav h1 a {
+        font-size: 20px;
+    }
+
+    /* Reduce header padding */
+    header {
+        padding: 10px;
+    }
+
+    /* Adjust nav padding to prevent overflow */
+    nav {
+        padding: 0 10px;
+    }
+
+    #table1 {
+        display: block;
+        width: 100%;
+    }
+    /* Hide the table headers */
+    #table1 thead {
+        display: none;
+    }
+    /* Make each table row display as block */
+    #table1 tr {
+        display: block;
+        margin-bottom: 20px;
+    }
+    /* Make each table cell display as block */
+    #table1 td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: white;
+        position: relative;
+    }
+    /* Remove extra margin from paragraphs */
+    #table1 td p {
+        margin: 0;
+    }
+    /* Add headers before each cell */
+    #table1 td:nth-child(1)::before {
+        content: "Residential";
+        display: block;
+        font-weight: bold;
+        color: #49b8e4;
+        margin-bottom: 10px;
+    }
+    #table1 td:nth-child(2)::before {
+        content: "Commercial";
+        display: block;
+        font-weight: bold;
+        color: #49b8e4;
+        margin-bottom: 10px;
+    }
+    #table1 td:nth-child(3)::before {
+        content: "Other";
+        display: block;
+        font-weight: bold;
+        color: #49b8e4;
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+}
