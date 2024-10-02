@@ -29,7 +29,7 @@ body > header > img {
    display: block;
    width: 100%;
 }
-body> header > nav.horizontalNavigation li {
+body > header > nav.horizontalNavigation li {
    width: 20%;
 }
 nav.horizontalNavigation li {
@@ -73,3 +73,21 @@ section#rightColumn > nav.horizontalNavigation li {
 
 /* Footer Styles */
 
+footer {
+   background-color: rgb(71, 52, 29);
+   clear: left;
+}
+footer::after{
+   clear: both;
+   content: "";
+   display: table;
+}
+
+footer > nav.verticalNavigation {
+   float: left;
+   width: 22%;
+}
+footer > section#contactInfo {
+   float: left;
+   width: 34%;
+}
