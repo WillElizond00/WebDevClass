@@ -14,10 +14,10 @@
 /* Main Styles */
 
 main {
+   overflow: auto;
    position: relative;
    height: 450px;
    width: 100%;
-   overflow: auto;
 }
 
 /* Infographic Styles */
